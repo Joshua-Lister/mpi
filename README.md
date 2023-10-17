@@ -1,4 +1,4 @@
-# acse-6-mpi-coursework-acse-jpl20
+# Parallelised implementation of 2D wave equation using MPI 
 
 This is an implementation of the two dimensional(2D) wave equation in c++ using parallel methods with Message Passing Interface(MPI). The program contains the algorithm class in /src which contains all of the methods required to calculate the wave equation and a main file which implements a boundary condition based on the user input to the text file 'input.txt'. It also contains the interface class which reads in 'input.txt' assigns values to reaction condition variables. The file processing.py reads in the data outputted by the function grid_to_file in algorithm class ; plots ands saves an animation. It is a standalone program and has no dependicies. Visit docs/html/index.html for information on code documentation.
 
